@@ -1,1 +1,65 @@
-/*# sourceMappingURL=stylesheet.css.map */
+body {
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: hsl(257deg, 40%, 49%);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  padding: 30px;
+}
+body .container .logo {
+  align-self: flex-start;
+  width: 40%;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+body .container .mockup {
+  width: 100%;
+  margin-bottom: 60px;
+}
+body .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+body .container p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+body .container .register {
+  margin-bottom: 60px;
+  color: hsl(257deg, 40%, 49%);
+  background-color: #fff;
+  width: 60%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 8px 0 8px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+body .container .register:hover {
+  background-color: hsl(257deg, 40%, 49%);
+  color: #fff;
+}
+body .container .socials {
+  width: 34%;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .socials > img {
+  filter: invert(87%) sepia(75%) saturate(2%) hue-rotate(59deg) brightness(106%) contrast(100%);
+  width: 10%;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 6px 8px;
+  color: #fff;
+}
+body .attribution {
+  margin-top: 30px;
+}/*# sourceMappingURL=stylesheet.css.map */
